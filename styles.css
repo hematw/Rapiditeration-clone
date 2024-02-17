@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fffbfb;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 3em;
+}
+
+.flex-align-center {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-menu{
+}
+
+.nav-menu ul {
+    list-style: none;
+}
+
+.nav-item {
+    text-transform: uppercase;
+    margin-left: 2em;
+}
+
+nav a {
+    color: #697587;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: #ec7a49;
+}
+
+.logo {
+    width: 40px;
+    display: inline-block;
+}
+
+.logo a img {
+    margin-top: 5px;
+}
+
+.btn {
+    background-color: #ec7a49;
+    color: #fffbfb;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.container {
+    padding: 3rem;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7rem 0;
+    color: #697587;
+}
+
+.about-info {
+    max-width: 32rem;
+}
+
+
+
+h1 {
+    font-family: 'Suez One', serif;
+    color: #1a2026;
+    font-size: 3rem;
+    font-weight: 400;
+}
