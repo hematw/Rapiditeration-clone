@@ -15,6 +15,32 @@ section:nth-child(odd) {
 section:nth-child(even) {
     background-color: #ffffff;
 }
+.blogs {
+    gap: 2em;
+    margin: 1em 4em;
+}
+
+.blogs img {
+    max-width: 100%;
+    /* height: ; */
+    border-radius: .5em;
+}
+
+.blogs .col {
+    max-width: 30%;
+    height: 90vh;
+    overflow: hidden;
+    margin-bottom: 2em;
+}
+
+.main-blog > div {
+    max-width: 50%;
+    margin: 2em;
+}
+
+.main-blog img {
+    width: 100%;
+}
 
 .title.big {
     font-size: 3.75rem;
@@ -25,7 +51,7 @@ section:nth-child(even) {
 }
 
 .small {
-    font-size: .9em;
+    font-size: 1rem;
 }
 
 .big.btn {
@@ -92,6 +118,8 @@ section:nth-child(even) {
     Repeating CSS code 
 */
 
+
+
 .flex {
     display: flex;
 }
@@ -114,6 +142,10 @@ section:nth-child(even) {
 
 .reverse {
     flex-direction: row-reverse;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 .w-30 {
